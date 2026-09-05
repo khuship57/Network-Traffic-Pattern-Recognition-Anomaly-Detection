@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Machine Learning Model Weight Artifacts (Large Pickles > 50MB)
+*.pkl
+*.h5
+*.joblib
+*.pth
+models/*.pkl
+
+# Datasets & CSV files (Track sample test file & reports)
+*.csv
+!data/Test.csv
+!reports/feature_importances.csv
+!reports/predictions.csv
+
+# Logs & Temporary Outputs
+*.log
+output/
+scratch/
+.system_generated/
+
+# OS Specific
+.DS_Store
+Thumbs.db
